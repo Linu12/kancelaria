@@ -78,33 +78,44 @@
     <p>It is advisable to contact the notary’s office in advance to confirm which specific documents will be needed for the particular situation, ensuring a smooth execution of notarial procedures.</p>
   `,
 
-    French: `<p>Documents requis pour les étrangers lors d’une visite chez un notaire.Lorsque qu’un étranger se rend chez un notaire, il est important de préparer les documents nécessaires qui peuvent être requis en fonction de la nature de l’acte notarial.</p>
-     <ul>Ci-dessous, une liste des principaux documents à apporter :
+    French: `<p>Documents requis pour les étrangers lors d’une visite chez un notaire.Lorsque qu’un étranger se rend chez un notaire, il est important de préparer les documents nécessaires qui peuvent être requis en fonction de la nature de l’acte notarial.</p><br>
+     <ul>Ci-dessous, une liste des principaux documents à apporter :<br><br>
       <li>1. Document d’identité – Un passeport ou un autre document reconnu confirmant l’identité, accepté en Pologne.
-        </li>
+        </li><br>
         <li>2. Numéro PESEL – Un numéro PESEL est requis, et si la personne n’en possède pas, un certificat de son absence doit être fourni.
-          </li>
+          </li><br>
           <li>3. Documents liés à l’acte notarial spécifique – Cela peut inclure des actes de propriété, des contrats, des procurations, des certificats ou d’autres documents juridiques, selon la nature de la demande.
-            </li>
+            </li><br>
             <li>4. Traductions certifiées – Si des documents sont rédigés dans une langue autre que le polonais, des traductions certifiées en polonais peuvent être nécessaires.Il est recommandé de contacter le bureau notarial à l’avance pour confirmer quels documents spécifiques seront nécessaires dans la situation particulière, afin d’assurer le bon déroulement des procédures.</li>
             </ul>
     
     `,
 
     German: `<p>Dokumente, die Ausländer bei einem Notarbesuch benötigen. Wenn ein Ausländer einen Notar aufsucht, ist es wichtig, die erforderlichen Dokumente vorzubereiten, die je nach Art der notariellen Handlung erforderlich sein können.</p> <br>
-    <ul> Im Folgenden finden Sie eine Liste der wichtigsten Dokumente, die mitgebracht werden sollten: <br>
+    <ul> Im Folgenden finden Sie eine Liste der wichtigsten Dokumente, die mitgebracht werden sollten:<br> <br>
       <li>1. Identitätsdokument – Ein Reisepass oder ein anderes anerkanntes Dokument, das die Identität bestätigt und in Polen akzeptiert wird.
         </li><br>
         <li> 2. PESEL-Nummer – Eine PESEL-Nummer ist erforderlich. Wenn die Person keine PESEL-Nummer hat, muss eine Bescheinigung über deren Fehlen vorgelegt werden. </li><br>
       <li>     3. Dokumente im Zusammenhang mit der spezifischen notariellen Handlung – Dazu können Eigentumsurkunden, Verträge, Vollmachten, Bescheinigungen oder andere rechtliche Dokumente gehören, abhängig von der Art des Anliegens. </li><br>
       <li> 4. Beglaubigte Übersetzungen – Wenn Dokumente in einer anderen Sprache als Polnisch verfasst sind, können beglaubigte Übersetzungen ins Polnische erforderlich sein. Es wird empfohlen, sich im Voraus mit dem Notariat in Verbindung zu setzen, um zu bestätigen, welche spezifischen Dokumente für die jeweilige Situation benötigt werden, um einen reibungslosen Ablauf der notariellen Verfahren zu gewährleisten.</li>
-      +
+      </ul>
     `,
  
- Belarus: `Дакументы, неабходныя для замежнікаў пры наведванні натарыуса. Калі замежнік наведвае натарыуса, важна падрыхтаваць неабходныя дакументы, якія могуць спатрэбіцца ў залежнасці ад характару натарыяльнага дзеяння. Ніжэй прыведзены спіс асноўных дакументаў, якія варта мець пры сабе: 1. Дакумент, які пацвярджае асобу – Паспорт або іншы прызнаны дакумент, які пацвярджае асобу і прымаецца ў Польшчы 2. Нумар PESEL – Патрабуецца нумар PESEL, і калі ў асобы яго няма, трэба прадаставіць сертыфікат аб яго адсутнасці. 3. Дакументы, звязаныя з канкрэтным натарыяльным дзеяннем – Гэта могуць быць праваўстаноўчыя дакументы, дагаворы, даверанасці, сертыфікаты або іншыя юрыдычныя дакументы, у залежнасці ад характару справы. 4. Завераныя пераклады – Калі якія-небудзь дакументы складзены на мове, іншай за польскую, могуць спатрэбіцца завераныя пераклады на польскую мову. Рэкамендуецца загадзя звязацца з натарыяльнай канторай, каб пацвердзіць, якія дакументы канкрэтна спатрэбяцца для дадзенай сітуацыі, каб забяспечыць бесперашкоднае ажыццяўленне натарыяльных працэдур
+ Belarus: `<p>Дакументы, неабходныя для замежнікаў пры наведванні натарыуса. Калі замежнік наведвае натарыуса, важна падрыхтаваць неабходныя дакументы, якія могуць спатрэбіцца ў залежнасці ад характару натарыяльнага дзеяння.
+  </p>
+   Ніжэй прыведзены спіс асноўных дакументаў, якія варта мець пры сабе: <br><br>
+  <ul>
+    <li>1. Дакумент, які пацвярджае асобу – Паспорт або іншы прызнаны дакумент, які пацвярджае асобу і прымаецца ў Польшчы  <br><br>
+      </li>
+      <li>2. Нумар PESEL – Патрабуецца нумар PESEL, і калі ў асобы яго няма, трэба прадаставіць сертыфікат аб яго адсутнасці. <br><br>
+        </li>
+        <li> 3. Дакументы, звязаныя з канкрэтным натарыяльным дзеяннем – Гэта могуць быць праваўстаноўчыя дакументы, дагаворы, даверанасці, сертыфікаты або іншыя юрыдычныя дакументы, у залежнасці ад характару справы.<br><br>
+          </li> 4. Завераныя пераклады – Калі якія-небудзь дакументы складзены на мове, іншай за польскую, могуць спатрэбіцца завераныя пераклады на польскую мову. Рэкамендуецца загадзя звязацца з натарыяльнай канторай, каб пацвердзіць, якія дакументы канкрэтна спатрэбяцца для дадзенай сітуацыі, каб забяспечыць бесперашкоднае ажыццяўленне натарыяльных працэдур
+    </ul>
  `,
 
- Ukrainian: `Документи, необхідні іноземцеві під час візиту до нотаріуса. Коли іноземець звертається до нотаріуса, важливо підготувати відповідні документи, які можуть бути необхідні залежно від характеру нотаріальної дії. Нижче наведено список основних документів, які варто мати при собі: 1. Документ, що засвідчує особу – Паспорт або інший визнаний документ, що підтверджує особу, який приймається в Польщі. 2. Номер PESEL – Потрібен номер PESEL, а якщо особа не має номера PESEL, необхідно надати свідоцтво про його відсутність. 3. Документи, пов’язані з конкретною нотаріальною дією – Це можуть бути акти власності, угоди, довіреності, довідки чи інші юридичні документи залежно від характеру справи. 4. Присяжні переклади – Якщо будь-які документи складені іншою мовою, можуть знадобитися присяжні переклади на польську мову. Рекомендується заздалегідь зв’язатися з нотаріальною конторою, щоб упевнитися, які саме документи будуть потрібні в конкретній ситуації, що дозволить оперативно провести.`
+ Ukrainian: `<p>Документи, необхідні іноземцеві під час візиту до нотаріуса.
+  </p> Коли іноземець звертається до нотаріуса, важливо підготувати відповідні документи, які можуть бути необхідні залежно від характеру нотаріальної дії. Нижче наведено список основних документів, які варто мати при собі: 1. Документ, що засвідчує особу – Паспорт або інший визнаний документ, що підтверджує особу, який приймається в Польщі. 2. Номер PESEL – Потрібен номер PESEL, а якщо особа не має номера PESEL, необхідно надати свідоцтво про його відсутність. 3. Документи, пов’язані з конкретною нотаріальною дією – Це можуть бути акти власності, угоди, довіреності, довідки чи інші юридичні документи залежно від характеру справи. 4. Присяжні переклади – Якщо будь-які документи складені іншою мовою, можуть знадобитися присяжні переклади на польську мову. Рекомендується заздалегідь зв’язатися з нотаріальною конторою, щоб упевнитися, які саме документи будуть потрібні в конкретній ситуації, що дозволить оперативно провести.`
 };
 
   // Toggles
@@ -547,23 +558,27 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 </div>
 
 <section class="text-gray-600 body-font flex bg-gray-900 relative md:text-base p-4 sm:h-auto sm:p-6 sm:bg-gray-900 bg-gradient-to-r from-teal-700 from-10% to-cyan-900 to-90% w-[90%] rounded-md mx-auto sm:w-[90%] md:w-[100%] lg:my-0 my-5 shadow-2xl shadow-teal-900 overflow-hidden">
-  <div class="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
+  <div class="container mx-auto flex px-5 py-12 items-center justify-center flex-col lg:flex-row lg:justify-between">
+    <!-- Text Content -->
     <div class="lg:w-2/3 w-full animate-fade-in-down">
-      <!-- Heading text with flex to align arrow next to it -->
-      <h1 class="md:text-6xl text-3xl mb-2 font-extrabold tracking-tight leading-tight text-white md:text-white flex items-center  lg:space-x-6">
+      <h1 class="md:text-6xl text-3xl mb-2 font-extrabold tracking-tight leading-tight text-white md:text-white flex items-center lg:space-x-6">
         <span>Notariusz - Łódź</span>
-        <!-- Arrow pointing left with larger size on desktop -->
-        <svg class="w-6 h-6 ml-2 text-white lg:w-12 lg:h-12 lg:ml-8"> <!-- Reduced margin-left for less space -->
+        <!-- Arrow pointing left -->
+        <svg class="w-6 h-6 ml-2 text-white lg:w-12 lg:h-12 lg:ml-8">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
           </svg>
         </svg>
       </h1>
-
       
       <p class="mt-2 mb-1 md:leading-relaxed leading-normal tracking-tight text-white text-base lg:leading-10 lg:text-xl">
         Klientów z terenu miasta Łódź i okolicy poszukujących profesjonalnej obsługi notarialnej zachęcamy do skorzystania z pomocy naszej Kancelarii. Notariusz Joanna Czernikiewicz wraz z Zespołem pozostaje do Państwa dyspozycji, zapewniając najwyższą jakość usług, w tym fachowe doradztwo w kwestiach cywilno-prawnych i gospodarczych będących w kompetencji urzędu notarialnego. Wszystkich zainteresowanych zapraszamy do bliższego zapoznania się ze świadczonymi przez Kancelarię czynnościami notarialnymi. W razie pytań lub wątpliwości dotyczących zakresu kompetencji notariusza zachęcamy do kontaktu. Nasz Zespół odpowie na wszystkie pytania i umówi wizytę w Kancelarii w dogodnym dla Państwa terminie.
       </p>
+    </div>
+
+    <!-- Image Content -->
+    <div class="hidden lg:block lg:w-1/3 lg:ml-20 shadow-lg">
+      <img src="kancelaria.jpg" alt="Kancelaria" class="rounded-lg shadow-lg">
     </div>
   </div>
 </section>
@@ -572,10 +587,12 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 
 <!-- Image Section: Polish Emblem (between the sections) -->
 <div class="relative z-10">
-  <div class="absolute inset-x-0 top-1/2 transform -translate-y-1/2 sm:translate-x-10 md:translate-x-20 flex justify-center items-center z-0 sm:block">
+  <div class="absolute inset-x-0 top-1/2 transform -translate-y-1/2 lg:top-[60%] lg:transform lg:-translate-y-[-30%] lg:translate-x-12 flex justify-center items-center z-0 sm:block">
     <img src="orzel.png" width="250px" alt="Polish Emblem" class="opacity-25" />
   </div>
 </div>
+
+
 
 
 <section class="text-gray-600 body-font flex bg-gray-900 relative md:text-base p-4 sm:h-auto sm:p-6 sm:bg-gray-900 
