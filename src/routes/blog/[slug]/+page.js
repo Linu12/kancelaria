@@ -27,9 +27,9 @@ Ugoda o alimenty w formie aktu notarialnego to rozwiązanie, które może zapewn
   {
     title: 'Opłaty',
     date: 'December 8, 2024',
-    content: `Za dokonanie czynności notarialnych notariusz pobiera wynagrodzenie w wysokości zgodnej z rozporządzeniem Ministra Sprawiedliwości z dnia 28 czerwca 2004 roku w sprawie maksymalnych stawek taksy notarialnej (t.j. Dz. U. z 2020 roku, poz.1473), powiększone o należny podatek od towarów i usług (VAT).
+    content: `Za dokonanie czynności notarialnych notariusz pobiera wynagrodzenie w wysokości zgodnej z rozporządzeniem Ministra Sprawiedliwości z dnia 28 czerwca 2004 roku w sprawie maksymalnych stawek taksy notarialnej (t.j. Dz. U. z 2020 roku, poz.1473), powiększone o należny podatek od towarów i usług (VAT). <br><br>
 
-Notariusz jest w określonych przypadkach także płatnikiem podatku od czynności cywilnoprawnych oraz podatku od spadków i darowizn. Ponadto, w przypadku zamieszczenia w akcie notarialnym wniosku o dokonanie wpisów w księdze wieczystej, notariusz pobiera od wnioskodawcy stosowną opłatę sądową. Powyższe opłaty notariusz w całości odprowadza na rachunki bankowe właściwych instytucji państwowych.
+Notariusz jest w określonych przypadkach także płatnikiem podatku od czynności cywilnoprawnych oraz podatku od spadków i darowizn. Ponadto, w przypadku zamieszczenia w akcie notarialnym wniosku o dokonanie wpisów w księdze wieczystej, notariusz pobiera od wnioskodawcy stosowną opłatę sądową. Powyższe opłaty notariusz w całości odprowadza na rachunki bankowe właściwych instytucji państwowych. <br><br>
 
 W celu ustalenia wysokości wszystkich opłat za daną czynność notarialną prosimy o kontakt osobisty, telefoniczny lub za pośrednictwem poczty elektronicznej.`,
     slug: 'blog-post-2',

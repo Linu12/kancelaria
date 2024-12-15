@@ -10,7 +10,7 @@ const { post } = data;
 <DesktopMenu />
 <!-- Centered Article -->
 <article class="w-full max-w-3xl mx-auto px-5 py-10">
-<h1 class="text-3xl font-bold mb-4 border border-cyan-700 rounded bg-gradient-to-r from-cyan-700 from-10% to-cyan-900 to-90% text-white p-3 text-center">
+<h1 class="text-3xl font-bold  border border-cyan-700 rounded bg-gradient-to-r from-cyan-700 from-10% to-cyan-900 to-90% text-white p-3 text-center lg: mb-16">
   {post.title}
 </h1>
 <!-- <p class="text-sm text-gray-500 mb-6 text-center">{post.date}</p> -->

@@ -3,7 +3,7 @@
       <!-- Footer Content with Flex for Desktop -->
       <div class="py-7 flex flex-col lg:flex-row lg:justify-between gap-6">
         <!-- Column 1: Contact Information -->
-        <div class="flex flex-col mb-4 lg:mb-0 lg:w-1/3">
+        <div class="flex flex-col mb-4 lg:mb-0 lg:w-1/3 lg:mt-4">
           <h3 class="text-lg font-semibold mb-2">Kontakt</h3>
           <p class="text-sm">90-420 Łódź, ul. Andrzeja Struga 7 lok. 4</p>
           <p class="text-sm">510 873 091 | 42 630 27 63</p>
@@ -11,16 +11,10 @@
         </div>
   
         <!-- Column 2: Services (Add your services here) -->
-        <div class="flex flex-col mb-4 lg:mb-0 lg:w-1/3">
-          <h3 class="text-lg font-semibold mb-2">Usługi</h3>
-          <ul class="text-sm">
-            <li><a href="/blog/blog-post-2" class="hover:text-cyan-400">Opłaty</a></li>
-            <li><a href="/co-warto-wiedziec" class="hover:text-cyan-400">Co warto wiedzieć</a></li>
-          </ul>
-        </div>
+    
   
         <!-- Column 3: Operating Hours (on the right) -->
-        <div class="flex flex-col mb-4 lg:mb-0 lg:w-1/3 lg:ml-auto">
+        <div class="flex flex-col mb-4 lg:mb-0 lg:w-3/3 lg:ml-auto lg:mt-5">
           <h3 class="text-lg font-semibold mb-2">Godziny pracy</h3>
           <ul class="text-sm">
             <li><span class="font-semibold">Poniedziałek:</span> 09:00–16:00</li>
@@ -43,7 +37,7 @@
   
     <!-- Image Section: Polish Emblem, Visible on all screen sizes -->
     <div class="absolute right-5 bottom-0 z-0 sm:right-5 sm:bottom-5 lg:right-10 lg:bottom-0">
-      <img src="orzel.png" width="180px" alt="Polish Emblem" class="opacity-25 transform translate-x-200px translate-y-[-40px] sm:translate-x-[-20px] sm:translate-y-[20px] lg:translate-x-[-800px] lg:translate-y-[-40px]" />
+      <img src="orzel.png" width="180px" alt="Polish Emblem" class="opacity-25 transform translate-x-200px translate-y-[-40px] sm:translate-x-[-20px] sm:translate-y-[20px] lg:translate-x-[-820px] lg:translate-y-[-40px]" />
     </div>
   
     <!-- Folded Corner -->
