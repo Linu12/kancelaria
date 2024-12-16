@@ -200,7 +200,7 @@
                 on:click={() => openModal('English')}
                 
               >
-                <img src="gb.svg" alt="English Flag" class="w-5 h-5 mr-2" />
+                <img src="eng.svg" alt="English Flag" class="w-5 h-5 mr-2" />
                 Eng
               </a>
               <a
@@ -216,18 +216,18 @@
                 class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 on:click={() => openModal('German')}
               >
-                <img src="de.svg" alt="German Flag" class="w-5 h-5 mr-2" />
+                <img src="ger.svg" alt="German Flag" class="w-5 h-5 mr-2" />
                 Ger
               </a>
 
                  <a href="#" class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                  <img src="by.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2"
+                  <img src="bel.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2"
                     on:click={() => openModal('Belarus')} />
                   Bel
                 </a>
 
                 <a href="#" class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                  <img src="ua.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2"
+                  <img src="ukr.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2"
                     on:click={() => openModal('Ukrainian')} />
                   Ukr
                 </a>
@@ -371,7 +371,7 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 
         <div class="py-1">
                 <a href="/english" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-                  <img src="gb.svg" alt="English Flag" class="w-5 h-5 mr-2" />
+                  <img src="eng.svg" alt="English Flag" class="w-5 h-5 mr-2" />
                   Eng
                 </a>
                 <a href="/french" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
@@ -379,15 +379,15 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
                   Fr
                 </a>
                 <a href="/germany" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-                  <img src="de.svg" alt="German Flag" class="w-5 h-5 mr-2" />
+                  <img src="ger.svg" alt="German Flag" class="w-5 h-5 mr-2" />
                   Ger
                 </a>
                 <a href="/belarus" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-                  <img src="by.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2" />
+                  <img src="bel.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2" />
                   Bel
                 </a>
                 <a href="/ukrainian" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-                  <img src="ua.svg" alt="Ukrainian Flag" class="w-5 h-5 mr-2" />
+                  <img src="ukr.svg" alt="Ukrainian Flag" class="w-5 h-5 mr-2" />
                   Ukr
                 </a>
               </div>

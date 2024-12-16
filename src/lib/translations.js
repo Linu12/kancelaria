@@ -1,5 +1,7 @@
 export const translations = {
+
     english: {
+      flag: "/eng.svg",
       title: "Documents Required for Foreigners Visiting a Notary",
       introduction:
         "When a foreigner visits a notary, it is important to prepare the necessary documents that may be required depending on the nature of the notarial act. Below is a list of key documents that should be brought along:",
@@ -13,6 +15,7 @@ export const translations = {
         "It is advisable to contact the notary’s office in advance to confirm which specific documents will be needed for the particular situation, ensuring a smooth execution of notarial procedures.",
     },
     french: {
+      flag: "/fr.svg",
       title: "Documents requis pour les étrangers visitant un notaire",
       introduction:
         "Lorsqu'un étranger visite un notaire, il est important de préparer les documents nécessaires, qui peuvent varier en fonction de la nature de l'acte notarié. Voici une liste des principaux documents à apporter:",
@@ -29,6 +32,7 @@ export const translations = {
 
 
     germany: {
+      flag: "/ger.svg",
         title: "Dokumente, die Ausländer bei einem Notarbesuch benötigen. ",
         introduction:
           "Wenn ein Ausländer einen Notar aufsucht, ist es wichtig, die erforderlichen Dokumente vorzubereiten, die je nach Art der notariellen Handlung erforderlich sein können. Im Folgenden finden Sie eine Liste der wichtigsten Dokumente, die mitgebracht werden sollten",
@@ -44,6 +48,7 @@ export const translations = {
 
 
       belarus: {
+        flag: "/bel.svg",
         title: "Дакументы, неабходныя для замежнікаў пры наведванні натарыуса. ",
         introduction:
           "Калі замежнік наведвае натарыуса, важна падрыхтаваць неабходныя дакументы, якія могуць спатрэбіцца ў залежнасці ад характару натарыяльнага дзеяння.  Ніжэй прыведзены спіс асноўных дакументаў, якія варта мець пры сабе:",
@@ -57,6 +62,7 @@ export const translations = {
           "",
       },
       ukrainian: {
+        flag: "/ukr.svg",
         title: "Документи, необхідні іноземцеві під час візиту до нотаріуса. ",
         introduction:
           "Коли іноземець звертається до нотаріуса, важливо підготувати відповідні документи, які можуть бути необхідні залежно від характеру нотаріальної дії. Нижче наведено список основних документів, які варто мати при собі:",

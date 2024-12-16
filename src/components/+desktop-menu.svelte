@@ -9,11 +9,11 @@
   // Function to detect the language from the current URL
   const getLanguageFromURL = () => {
     const path = window.location.pathname;
-    if (path.includes('/english')) return 'Gb';
-    if (path.includes('/french')) return 'Fr';
-    if (path.includes('/germany')) return 'De';
-    if (path.includes('/belarus')) return 'By';
-    if (path.includes('/ukrainian')) return 'Ua';
+    if (path.includes('/english')) return 'ENG';
+    if (path.includes('/french')) return 'FR';
+    if (path.includes('/germany')) return 'GER';
+    if (path.includes('/belarus')) return 'BEL';
+    if (path.includes('/ukrainian')) return 'UKR';
     return 'PL'; // Default language
   };
 
@@ -61,31 +61,31 @@
     <div class="sm:block sm:ml-auto flex items-center relative">
       <button class="flex justify-between items-center px-4 py-2 bg-white text-sm font-bold text-cyan-900 hover:bg-gray-50 rounded-md" on:click={toggleDropdown}>
         <img src={`/${selectedLanguage.toLowerCase()}.svg`} alt={selectedLanguage} class="w-6 h-6 mr-3" />
-        {selectedLanguage}
+        {selectedLanguage.toUpperCase()} <!-- This makes the language uppercase -->
       </button>
 
       {#if isDropdownOpen}
         <div class="absolute top-full right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
           <div class="py-1">
             <a href="/english" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-              <img src="/gb.svg" alt="English Flag" class="w-5 h-5 mr-2" />
-              Eng
+              <img src="/eng.svg" alt="English Flag" class="w-5 h-5 mr-2" />
+              ENG <!-- Change "GB" to "ENG" -->
             </a>
             <a href="/french" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
               <img src="/fr.svg" alt="French Flag" class="w-5 h-5 mr-2" />
-              Fr
+              FR
             </a>
             <a href="/germany" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-              <img src="/de.svg" alt="German Flag" class="w-5 h-5 mr-2" />
-              Ger
+              <img src="/ger.svg" alt="German Flag" class="w-5 h-5 mr-2" />
+              GER
             </a>
             <a href="/belarus" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-              <img src="/by.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2" />
-              Bel
+              <img src="/bel.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2" />
+              BEL
             </a>
             <a href="/ukrainian" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
-              <img src="/ua.svg" alt="Ukrainian Flag" class="w-5 h-5 mr-2" />
-              Ukr
+              <img src="/ukr.svg" alt="Ukrainian Flag" class="w-5 h-5 mr-2" />
+              UKR
             </a>
           </div>
         </div>
