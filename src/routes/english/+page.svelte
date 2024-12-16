@@ -28,5 +28,5 @@
         <span class="text-gray">© Notariusz Joanna Czernikiewicz 2024</span>
       </div>
     </div>
-  </div> :)))
+  </div> 
   </footer>
