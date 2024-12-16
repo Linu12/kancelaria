@@ -421,7 +421,7 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 
 
 
-    <div class="relative w-11/12 mx-auto h-[32rem] mt-3 bg-cover bg-left  rounded-lg md:hidden" style="background-image: url('kancelaria.JPG'); background-position: -50px center ">
+    <div class="relative w-11/12 mx-auto h-[32rem] mt-3 bg-cover bg-left  rounded-lg md:hidden" style="background-image: url('notariusz.jpg'); background-position: -180px center ">
       <!-- Optional overlay for better contrast -->
       <div class="absolute inset-0 bg-black opacity-40 rounded-lg"></div>
       <div class="absolute inset-0 flex justify-center items-center text-white">
@@ -551,7 +551,7 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 
 
   <!-- Right Section: Background Image -->
-  <div class="flex-[2] relative bg-cover bg-no-repeat bg-[center_bottom]" style="background-image: url('kancelaria.JPG');">
+  <div class="flex-[2] relative bg-cover bg-no-repeat bg-[center_bottom]" style="background-image: url('notariusz.jpg');">
     <div class="absolute inset-0 bg-black opacity-40"></div>
     <p id="dynamicText"></p>
   </div>
