@@ -370,23 +370,23 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
       
 
         <div class="py-1">
-                <a href="#" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
+                <a href="/english" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
                   <img src="gb.svg" alt="English Flag" class="w-5 h-5 mr-2" />
                   Eng
                 </a>
-                <a href="#" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
+                <a href="/french" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
                   <img src="fr.svg" alt="French Flag" class="w-5 h-5 mr-2" />
                   Fr
                 </a>
-                <a href="#" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
+                <a href="/germany" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
                   <img src="de.svg" alt="German Flag" class="w-5 h-5 mr-2" />
                   Ger
                 </a>
-                <a href="#" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
+                <a href="/belarus" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
                   <img src="by.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2" />
                   Bel
                 </a>
-                <a href="#" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
+                <a href="/ukrainian" class="flex items-center block px-4 py-2 text-sm text-black hover:bg-gray-100">
                   <img src="ua.svg" alt="Ukrainian Flag" class="w-5 h-5 mr-2" />
                   Ukr
                 </a>
