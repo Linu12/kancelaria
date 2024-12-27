@@ -28,7 +28,9 @@
 		"axios": "^1.7.9",
 		"js-cookie": "^3.0.5",
 		"jwt-decode": "^4.0.0",
+		"quill": "^2.0.3",
 		"svelte-icons": "^2.1.0",
+		"svelte-preprocess": "^6.0.3",
 		"vite-plugin-svgr": "^4.3.0"
 	}
 }

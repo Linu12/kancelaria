@@ -568,7 +568,7 @@
 
     <!-- Right Section: Background Image -->
     <div class="flex-[2] relative bg-cover bg-no-repeat bg-[center_bottom]"
-         style="background-image: url('notariusz.jpg');">
+         style="background-image: url('kancelaria.jpg');">
         <div class="absolute inset-0 bg-black opacity-40"></div>
         <p id="dynamicText"></p>
     </div>
@@ -604,7 +604,7 @@
 
         <!-- Image Content -->
         <div class="hidden lg:block lg:w-1/3 lg:ml-20 shadow-lg">
-            <img src="kancelaria.jpg" alt="Kancelaria Notarialna Joanna Czernikiewicz" class="rounded-lg shadow-lg">
+            <img src="kanc.jpg" alt="Kancelaria Notarialna Joanna Czernikiewicz" class="rounded-lg shadow-lg">
         </div>
     </div>
 </section>
