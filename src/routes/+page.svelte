@@ -4,6 +4,7 @@
     import Horizontal  from '../components/+horizontal.svelte';
    import ScrollToTop from '../components/+scrollToTop.svelte'; 
    import Footer from '../components/+footer.svelte';
+  import QuillEditor from '../components/+quillEditor.svelte';
 
   
 
@@ -578,7 +579,7 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 
     <!-- Image Content -->
     <div class="hidden lg:block lg:w-1/3 lg:ml-20 shadow-lg">
-      <img src="kancelaria.jpg" alt="Kancelaria" class="rounded-lg shadow-lg">
+      <img src="kancelaria.jpg" alt="Kancelaria Notarialna Joanna Czernikiewicz" class="rounded-lg shadow-lg">
     </div>
   </div>
 </section>
@@ -655,14 +656,17 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
   <!-- <h2 class="lg:text-6xl font-bold text-center text-cyan-800 mb-6 text-3xl">Jesteśmy tutaj</h2> -->
   <div class="h-96 rounded-lg overflow-hidden shadow-md mt-7">
     <!-- svelte-ignore a11y_missing_attribute -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2469.225862326579!2d19.454999!3d51.765478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb2a89f9d1c7%3A0x6049035063f884f7!2sNotariusz%20Joanna%20Czernikiewicz%20-%20Kancelaria%20Notarialna!5e0!3m2!1sen!2spl!4v1733324927397!5m2!1sen!2spl" width="2400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2469.225862326579!2d19.454999!3d51.765478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb2a89f9d1c7%3A0x6049035063f884f7!2sNotariusz%20Joanna%20Czernikiewicz%20-%20Kancelaria%20Notarialna!5e0!3m2!1sen!2spl!4v1733324927397!5m2!1sen!2spl" 
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-</section> 
+</section>
 
 
 
 
 <Footer />
+
+<QuillEditor />
 
 <ScrollToTop />
 
