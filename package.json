@@ -24,7 +24,10 @@
 	},
 	"dependencies": {
 		"@iconify/svelte": "^4.0.2",
-		"quill": "^2.0.3",
+		"@sveltejs/adapter-node": "^5.2.11",
+		"axios": "^1.7.9",
+		"js-cookie": "^3.0.5",
+		"jwt-decode": "^4.0.0",
 		"svelte-icons": "^2.1.0",
 		"vite-plugin-svgr": "^4.3.0"
 	}

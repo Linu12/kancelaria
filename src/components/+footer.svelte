@@ -3,28 +3,28 @@
       <!-- Footer Content with Flex for Desktop -->
       <div class="py-7 flex flex-col lg:flex-row lg:justify-between gap-6">
           <!-- Column 1: Contact Information -->
-          <div class="flex flex-col mb-4 lg:mb-0 lg:w-1/3 lg:mt-12">
+          <div class="flex flex-col mb-4 lg:mb-0 lg:w-1/3 lg:mt-4">
               <h3 class="text-lg font-semibold mb-2">Kontakt</h3>
-              <p class="text-sm lg:mb-2">90-420 Łódź, ul. Andrzeja Struga 7 lok. 4</p>
-              <p class="text-sm lg:mb-2">510 873 091 | 42 630 27 63</p>
-              <p class="text-sm lg:mb-2">kancelaria@notariusz-lodz.com</p>
+              <p class="text-sm">90-420 Łódź, ul. Andrzeja Struga 7 lok. 4</p>
+              <p class="text-sm">510 873 091 | 42 630 27 63</p>
+              <p class="text-sm">kancelaria@notariusz-lodz.com</p>
           </div>
 
           <!-- Image for Mobile Screen -->
-          <img src="kancelaria.jpg" 
+          <img src="/kancelaria.jpg"
               alt="notariusz-lodz"
               class="block w-48 h-48 rounded-lg ml-0 mx-auto sm:hidden"
           />
 
           <!-- Column 3: Operating Hours (on the right) -->
-          <div class="flex flex-col mb-4 lg:mb-0 lg:w-3/3 lg:ml-auto lg:mt-10">
-              <h3 class="text-lg font-semibold lg:mb-3">Godziny pracy</h3>
+          <div class="flex flex-col mb-4 lg:mb-0 lg:w-3/3 lg:ml-auto lg:mt-5">
+              <h3 class="text-lg font-semibold mb-2">Godziny pracy</h3>
               <ul class="text-sm">
-                  <li><span class="font-semibold lg:mb-3">Poniedziałek, środa, piątek: </span> 09:00–16:00</li>
-                  <li><span class="font-semibold lg:mb-3">Wtorek, czwartek: </span> 10:00–17:00</li>
-   
-                 
-        
+                  <li><span class="font-semibold">Poniedziałek:</span> 09:00–16:00</li>
+                  <li><span class="font-semibold">Wtorek:</span> 10:00–17:00</li>
+                  <li><span class="font-semibold">Środa:</span> 09:00–16:00</li>
+                  <li><span class="font-semibold">Czwartek:</span> 10:00–17:00</li>
+                  <li><span class="font-semibold">Piątek:</span> 09:00–16:00</li>
                   <li><span class="font-semibold">Sobota:</span> 09:00–15:00</li>
               </ul>
           </div>

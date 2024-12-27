@@ -1,15 +1,5 @@
 <script>
-// @ts-nocheck
+    import "/src/app.css";
+</script>
 
-    import '../app.css';  // Import TailwindCSS file
-
-  </script>
-
-  <!-- Include the Modal Component -->
-  <slot  />
-
-
-
-  
-  
-  
+<slot/>

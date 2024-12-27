@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-@import 'quill/dist/quill.snow.css';
 
 
 @tailwind base;
@@ -12,37 +11,36 @@
 
 .font-handwritten {
     font-family: 'Pacifico', cursive;
-  }
+}
 
-  .gradient-bg-image {
-    background: linear-gradient(to right, #063970, #086788, #0496ff), url('kancelaria.JPG');
+.gradient-bg-image {
+    /*background: linear-gradient(to right, #063970, #086788, #0496ff);*/
+    background-image: url('/kancelaria.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
-  .watermark {
+.watermark {
     position: absolute;
     top: 40%;
     left: 60%;
     transform: translate(-50%, -50%);
     opacity: 0.1;
     pointer-events: none;
-  }
-  
-  @keyframes bounce-ltr {
+}
+
+@keyframes bounce-ltr {
     0% {
-      transform: translateX(-1px);
+        transform: translateX(-1px);
     }
     50% {
-      transform: translateX(5px);
+        transform: translateX(5px);
     }
     100% {
-      transform: translateX(-1px);
+        transform: translateX(-1px);
     }
-  }
-
-  
+}
 
   
   
