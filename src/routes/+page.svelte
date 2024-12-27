@@ -666,7 +666,7 @@ class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
 
 <Footer />
 
-<QuillEditor />
+
 
 <ScrollToTop />
 
