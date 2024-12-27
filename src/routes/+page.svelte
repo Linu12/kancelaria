@@ -263,7 +263,7 @@
                                   clip-rule="evenodd"/>
                         </svg>
 
-                        <a href="/co-warto-wiedziec"
+                        <a href="/info"
                            class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
                             Co warto wiedzieć
                         </a>
@@ -335,7 +335,7 @@
         </a>
 
 
-        <a href="/co-warto-wiedziec"
+        <a href="/info"
            class="text-sm font-semibold flex items-center space-x-1 hover:text-cyan-700">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                  stroke="currentColor" class="size-6">
