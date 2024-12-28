@@ -3,5 +3,41 @@
         "home": "Home",
         "info": "Information",
         "contact": "Contact"
+    },
+    "main": {
+        "info": {
+            "notary_office": "Kancelaria notarialna",
+            "buttons": {
+                "contact_with_us": "Skontaktuj się z nami",
+                "how_to_get_there": "Jak dojechać?",
+                "set_route": "Wyznacz trasę"
+            }
+        },
+        "notary": {
+            "title": "Notary - Lodz",
+            "text": "Klientów z terenu miasta Łódź i okolicy poszukujących profesjonalnej obsługi notarialnej zachęcamy do skorzystania z pomocy naszej Kancelarii. Notariusz Joanna Czernikiewicz wraz z Zespołem pozostaje do Państwa dyspozycji, zapewniając najwyższą jakość usług, w tym fachowe doradztwo w kwestiach cywilno-prawnych i gospodarczych będących w kompetencji urzędu notarialnego. Wszystkich zainteresowanych zapraszamy do bliższego zapoznania się ze świadczonymi przez Kancelarię czynnościami notarialnymi. W razie pytań lub wątpliwości dotyczących zakresu kompetencji notariusza zachęcamy do kontaktu. Nasz Zespół odpowie na wszystkie pytania i umówi wizytę w Kancelarii w dogodnym dla Państwa terminie."
+        },
+        "experience": {
+            "title": "Doświadczenie",
+            "text": "Bogate doświadczenie pozwala na rzetelne przygotowywanie aktów notarialnych oraz fachowe doradztwo prawne, co przekłada się na wysoki poziom obsługi klienta. Kancelaria Notarialna Notariusza Joanny Czernikiewicz kieruje swoje usługi do osób fizycznych oraz przedsiębiorców. Nasi Klienci mogą liczyć na indywidualne podejście, zaangażowanie oraz działanie w ich najlepszym interesie. Dopełniając czynności dbamy o to, by były one zgodne z obowiązującym prawem, a Klienci byli świadomi wszystkich przysługujących im praw i obowiązków z nich wynikających."
+        },
+        "contact_form": {
+            "title": "Contact with us",
+            "inputs": {
+                "fullname": "Imię i Nazwisko",
+                "message": "Wiadomość"
+            },
+            "send_message_btn": "Wyślij wiadomość"
+        }
+    },
+    "footer": {
+        "contact": "Kontakt",
+        "hours": {
+            "title": "Godziny pracy",
+            "monday_wednesday_friday": "Poniedziałek, środa, piątek",
+            "tuesday_thursday": "Wtorek, czwartek",
+            "saturday": "Sobota"
+        },
+        "notary": "Notariusz"
     }
 }

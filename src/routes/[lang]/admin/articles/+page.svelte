@@ -5,12 +5,13 @@
 
     export let data;
 
+    const lang = data.lang;
+
     let articles = data.articles ? data.articles : [];
 
     const delArticle = async (id) => {
         const result = await deleteArticle(id)
         articles = result.articles
-        console.log(articles)
     }
 </script>
 
@@ -44,5 +45,5 @@
             {/each}
         </tbody>
     </table>
-    <button on:click={() => {goto("/admin")}} class="px-4 py-2 text-white bg-black rounded hover:bg-blue-600 w-[170px]">Create article</button>
+    <button on:click={() => {goto(`/${lang.code}/admin`)}} class="px-4 py-2 text-white bg-black rounded hover:bg-blue-600 w-[170px]">Create article</button>
 </div>
