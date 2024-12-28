@@ -1,7 +1,7 @@
 <script>
-    import { createArticle, updateArticle } from "$lib/js/articles.js";
-    import { page } from "$app/stores";
-    import { goto } from "$app/navigation";
+    import {createArticle, updateArticle} from "$lib/js/articles.js";
+    import {page} from "$app/stores";
+    import {goto} from "$app/navigation";
     import Quill from "$lib/components/+quillEditor.svelte";
 
     export let articleData;
@@ -9,12 +9,12 @@
     const initArticleData = articleData;
 
     const languages = [
-        { lang: "EN", code: "en" },
-        { lang: "PL", code: "pl" },
-        { lang: "DE", code: "de" },
-        { lang: "FR", code: "fr" },
-        { lang: "BEL", code: "bel" },
-        { lang: "UK", code: "uk" },
+        {lang: "EN", code: "en"},
+        {lang: "PL", code: "pl"},
+        {lang: "DE", code: "de"},
+        {lang: "FR", code: "fr"},
+        {lang: "BEL", code: "bel"},
+        {lang: "UK", code: "uk"},
     ];
 
     let openIndex = 0;
@@ -52,18 +52,37 @@
         return result;
     };
 
+    const removeEmptyFields = (obj) => {
+        if (typeof obj !== 'object' || obj === null) {
+            return obj;
+        }
+
+        const newObj = Array.isArray(obj) ? [] : {};
+
+        for (const [key, value] of Object.entries(obj)) {
+            const cleanedValue = removeEmptyFields(value);
+            if (
+                cleanedValue !== undefined &&
+                cleanedValue !== null &&
+                (typeof cleanedValue !== 'object' || Object.keys(cleanedValue).length > 0)
+            ) {
+                newObj[key] = cleanedValue;
+            }
+        }
+
+        return Array.isArray(obj) ? newObj : Object.keys(newObj).length > 0 ? newObj : undefined;
+    }
+
     const submitArticle = async () => {
         const newArticleData = collectArticleData();
 
         if (articleData) {
             const differences = findDifferences(initArticleData, newArticleData);
-            await updateArticle(articleData.article_id, differences);
-            await goto("/admin/articles");
+            await updateArticle(articleData.article_id, removeEmptyFields(differences));
+            // await goto("/admin/articles");
         } else {
             await createArticle(newArticleData);
         }
-
-        console.log(newArticleData)
     };
 
     const findDifferences = (init, current) => {
