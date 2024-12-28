@@ -1,7 +1,6 @@
 <script>
     import {createArticle, updateArticle} from "$lib/js/articles.js";
     import {page} from "$app/stores";
-    import {goto} from "$app/navigation";
     import Quill from "$lib/components/+quillEditor.svelte";
 
     export let articleData;

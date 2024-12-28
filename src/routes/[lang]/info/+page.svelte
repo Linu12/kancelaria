@@ -1,6 +1,5 @@
 <script>
     import ScrollToTop from '$lib/components/+scrollToTop.svelte';
-    import DesktopMenu from '$lib/components/+desktop-menu.svelte';
     import {page} from "$app/stores";
     import {goto} from "$app/navigation";
     import Navigation from '$lib/components/+navigation.svelte';
