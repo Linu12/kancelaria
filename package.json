@@ -10,8 +10,9 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
+		"@iconify/svelte": "^4.0.2",
+		"@sveltejs/adapter-node": "^5.2.11",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@tailwindcss/typography": "^0.5.15",
 		"autoprefixer": "^10.4.20",
@@ -23,8 +24,6 @@
 		"vite": "^5.0.3"
 	},
 	"dependencies": {
-		"@iconify/svelte": "^4.0.2",
-		"@sveltejs/adapter-node": "^5.2.11",
 		"axios": "^1.7.9",
 		"js-cookie": "^3.0.5",
 		"jwt-decode": "^4.0.0",

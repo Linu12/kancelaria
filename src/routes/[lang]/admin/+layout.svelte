@@ -1,8 +1,8 @@
 <script>
     import {page} from "$app/stores";
 
-    import Login from "/src/components/admin/+login.svelte";
-    import Navigation from "/src/components/admin/+links.svelte";
+    import Login from "$lib/components/admin/+login.svelte";
+    import Navigation from "$lib/components/admin/+links.svelte";
 </script>
 
 {#if !$page.data.admin}

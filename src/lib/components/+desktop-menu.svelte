@@ -1,19 +1,5 @@
 <script>
 
-
-    // States for toggling menu, dropdown, and modal
-    let isMenuOpen = false;
-    let isDropdownOpen = false;
-    let isModalOpen = false;
-
-    // Toggles
-    const toggleMenu = () => (isMenuOpen = !isMenuOpen);
-    const toggleDropdown = () => (isDropdownOpen = !isDropdownOpen);
-    const openModal = (language) => {
-        selectedLanguage = language;
-        isModalOpen = true;
-    };
-    const closeModal = () => (isModalOpen = false);
 </script>
 
 <!-- Desktop Menu (Visible on larger screens) -->

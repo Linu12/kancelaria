@@ -1,8 +1,15 @@
 <script>
-    import ScrollToTop from '../../components/+scrollToTop.svelte';
-    import DesktopMenu from '../../components/+desktop-menu.svelte';
+    import ScrollToTop from '$lib/components/+scrollToTop.svelte';
+    import DesktopMenu from '$lib/components/+desktop-menu.svelte';
     import {page} from "$app/stores";
     import {goto} from "$app/navigation";
+    import Navigation from '$lib/components/+navigation.svelte';
+    import Footer from '$lib/components/+footer.svelte';
+
+    export let data;
+
+    const lang = data.lang;
+    console.log(lang)
 
     const changePage = async (pageNum) => {
         if (pageNum >= 1 && pageNum <= $page.data.articlesResponse.page.total) {
@@ -47,188 +54,7 @@
     const closeModal = () => (isModalOpen = false);
 </script>
 
-
-<nav class="bg-white-800 ">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10 mt-0 ">
-        <div class="relative flex h-8 lg:h-0 items-center justify-between ">
-            <!-- Hamburger Icon (Mobile) -->
-            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden ">
-                <button
-                        type="button"
-                        class="relative inline-flex items-center justify-center rounded-md p-2 text-cyan-800 hover:bg-cyan-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white "
-                        aria-controls="mobile-menu"
-                        aria-expanded={isMenuOpen}
-                        on:click={toggleMenu}
-                >
-                    <span class="sr-only"></span>
-                    <!-- Hamburger Icon -->
-                    {#if !isMenuOpen}
-                        <svg
-                                class="block h-6 w-6"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                aria-hidden="true"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    {/if}
-                    <!-- Close Icon -->
-                    {#if isMenuOpen}
-                        <svg
-                                class="block h-6 w-6"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                aria-hidden="true"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
-                    {/if}
-                </button>
-            </div>
-
-            <!-- Polish Flag Button (Right Side in Mobile) -->
-            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 ">
-                <button
-                        class="flex justify-between items-center px-4 py-2 bg-white text-sm font-bold text-cyan-900 hover:bg-gray-50 rounded-md sm:hidden"
-                        on:click={toggleDropdown}
-                >
-                    <img src="pl.svg" alt="Polish Flag" class="w-6 h-6"/>
-                </button>
-
-                {#if isDropdownOpen}
-                    <div
-                            class="absolute top-full right-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 sm:hidden"
-                    >
-                        <div class="py-1">
-                            <a
-                                    href="/"
-                                    class="flex items-center block px-4 py-2 text-sm text-cyan-900 hover:bg-gray-100"
-                                    on:click={() => openModal('English')}
-
-                            >
-                                <img src="gb.svg" alt="English Flag" class="w-5 h-5 mr-2"/>
-                                Eng
-                            </a>
-                            <a
-                                    href="/"
-                                    class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                                    on:click={() => openModal('French')}
-                            >
-                                <img src="fr.svg" alt="French Flag" class="w-5 h-5 mr-2"/>
-                                Fr
-                            </a>
-                            <a
-                                    href="/"
-                                    class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                                    on:click={() => openModal('German')}
-                            >
-                                <img src="de.svg" alt="German Flag" class="w-5 h-5 mr-2"/>
-                                Ger
-                            </a>
-
-                            <a href="/"
-                               class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                <img src="by.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2"
-                                     aria-hidden="true"
-                                     on:click={() => openModal('Belarus')}/>
-                                Bel
-                            </a>
-
-                            <a href="/"
-                               class="flex items-center block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                <img src="ua.svg" alt="Belarusian Flag" class="w-5 h-5 mr-2"
-                                     aria-hidden="true"
-                                     on:click={() => openModal('Ukrainian')}/>
-                                Ukr
-                            </a>
-                        </div>
-                    </div>
-                {/if}
-            </div>
-        </div>
-
-        <!-- Mobile Menu -->
-        {#if isMenuOpen}
-
-
-            <div class="sm:hidden" id="mobile-menu">
-                <div class="space-y-1 px-5 pt-2 pb-3 uppercase">
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                             class="h-4 w-4 text-cyan-800">
-                            <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z"/>
-                        </svg>
-                        <a href="/"
-                           class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
-                            Strona główna
-                        </a>
-                    </div>
-
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                             class="size-4 text-cyan-800">
-                            <path fill-rule="evenodd"
-                                  d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z"
-                                  clip-rule="evenodd"/>
-                        </svg>
-
-                        <a href="/info"
-                           class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
-                            Co warto wiedzieć
-                        </a>
-                    </div>
-
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                             class="size-4 text-cyan-800">
-                            <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"/>
-                            <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"/>
-                        </svg>
-
-                        <a href="/#contact"
-                           class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
-                            Kontakt
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        {/if}
-
-    </div>
-</nav>
-
-<!-- Modal -->
-<div class="fixed inset-0 z-50 transition-opacity duration-2000 ease-in-out"
-     role="dialog"
-     aria-modal="true"
-     aria-hidden={!isModalOpen}
-     class:bg-opacity-50={!isModalOpen}
-     class:bg-opacity-0={isModalOpen}
-     class:pointer-events-none={!isModalOpen}
-     on:click={closeModal}
->
-    <div aria-hidden=true
-         class="fixed top-[10%] right-0 h-[80%] bg-cyan-600 rounded-lg shadow-lg p-6 transform transition-transform duration-2000 ease-in-out w-[90%] sm:w-[50%] overflow-y-auto"
-         class:translate-x-full={!isModalOpen}
-         class:translate-x-0={isModalOpen}
-         on:click|stopPropagation
-    >
-        <button class="absolute top-4 right-2 text-4xl text-white" aria-label="Close modal" on:click={closeModal}>
-            &times;
-        </button>
-        <h2 class="text-lg font-bold mb-4">{selectedLanguage}</h2>
-        <p class="text-white">{@html translations[selectedLanguage]}</p>
-    </div>
-</div>
-
-<DesktopMenu/>
+<Navigation lang={lang}/>
 
 <section class="py-12 bg-gray-100">
     <div class="container mx-auto px-5">
@@ -236,10 +62,10 @@
             {#each $page.data.articlesResponse.articles as article}
                 <div class="bg-cyan-500 lg:bg-white shadow-md rounded-lg overflow-hidden">
                     <div class="p-6">
-                        <h2 class="text-xl font-semibold text-white bg-gradient-to-r from-cyan-700 from-10% to-cyan-900 to-90%  p-4 rounded shadow-xl shadow-cyan-700 lg:shadow-sm">{article.title["pl"]}</h2>
+                        <h2 class="text-xl font-semibold text-white bg-gradient-to-r from-cyan-700 from-10% to-cyan-900 to-90%  p-4 rounded shadow-xl shadow-cyan-700 lg:shadow-sm">{article.title[lang.code]}</h2>
                         <!-- <p class="text-sm text-gray-500">{date}</p> -->
-                        <p class="mt-2 text-gray-700">{article.content["pl"].substring(0, 150)}...</p>
-                        <a href="/info/articles/{article.url}"
+                        <p class="mt-2 text-gray-700">{article.content[lang.code].substring(0, 150)}...</p>
+                        <a href="/{lang.code}/info/articles/{article.url}"
                            class="text-cyan-700 hover:text-cyan-500 mt-4 inline-block text-base">Czytaj więcej</a>
                     </div>
                 </div>
@@ -274,4 +100,6 @@
 
     </div>
 </section>
+
+<Footer lang={lang}/>
 <ScrollToTop/>

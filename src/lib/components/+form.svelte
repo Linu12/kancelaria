@@ -1,6 +1,8 @@
 <script>
     import api from "$lib/js/api.js";
 
+    export let lang;
+
     const contactForm = {
         fullname: "",
         email: "",
@@ -12,13 +14,10 @@
         }
     }
 
-    const submitForm = async () => {
+    const submitForm = async (event) => {
         try {
-            const response = api.post("/v1/forms/create/", contactForm)
-
-            if (response.status === 200) {
-                console.log("Successfully submitted")
-            }
+            await api.post("/v1/forms/create/", contactForm)
+            event.target.reset()
         } catch (error) {
             console.error(error)
         }
@@ -29,9 +28,8 @@
 
 
     <form class="space-y-4  rounded " on:submit|preventDefault={submitForm}>
-        <!-- Name Field -->
         <div>
-            <label for="name" class="block text-sm font-medium text-white">Imię i Nazwisko</label>
+            <label for="name" class="block text-sm font-medium text-white">{lang?.langFile?.main?.contact_form?.inputs?.fullname}</label>
             <input
                     id="name"
                     type="text"
@@ -58,7 +56,7 @@
 
         <!-- Message Field -->
         <div>
-            <label for="message" class="block text-sm font-medium text-white">Wiadomość</label>
+            <label for="message" class="block text-sm font-medium text-white">{lang?.langFile?.main?.contact_form?.inputs?.message}</label>
             <textarea
                     id="message"
                     class="mt-2 p-2 w-full border border-cyan-600 rounded-md shadow-sm focus:ring-teal-500 focus:border-cyan-500"
@@ -75,13 +73,8 @@
                     type="submit"
                     class="w-full bg-transparent border border-cyan-600 text-white p-2 rounded-md hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
             >
-                Wyślij wiadomość
+                {lang?.langFile?.main?.contact_form?.send_message_btn}
             </button>
         </div>
     </form>
 </div>
-
-<style>
-    /* Optional: Custom styling if needed */
-</style>
-  
