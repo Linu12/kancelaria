@@ -60,7 +60,7 @@
                         <button
                                 on:click={scrollToSection}
                                 class="bg-transparent hover:bg-cyan-800 text-white font-semibold py-4 px-4 my-3 border border-teal-200 shadow-md hover:border-transparent rounded text-center flex items-center justify-center space-x-2">
-                            <span></span>
+                                <span>{lang?.langFile?.main?.info?.buttons?.contact_with_us}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                  stroke="currentColor" class="h-6 w-6 text-cyan-400">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -70,7 +70,7 @@
                         <button
                                 on:click={scrollToMap}
                                 class="bg-transparent hover:bg-cyan-800 text-white font-semibold py-4 px-4 my-3 border border-teal-200 shadow-md hover:border-transparent rounded text-center flex items-center justify-center space-x-2">
-                            <span>Jak dojechać?</span>
+                                <span>{lang?.langFile?.main?.info?.buttons?.how_to_get_there}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                  stroke="currentColor" class="h-6 w-6 text-cyan-400">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -80,7 +80,7 @@
                         <button
                                 on:click={goToMap}
                                 class="bg-transparent hover:bg-cyan-800 text-white font-semibold py-4 px-4 my-3 border border-teal-200 shadow-md hover:border-transparent rounded text-center flex items-center justify-center space-x-2">
-                            <span>Wyznacz trasę</span>
+                                <span>{lang?.langFile?.main?.info?.buttons?.set_route}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                  stroke="currentColor" class="h-6 w-6 text-cyan-400">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -199,7 +199,7 @@
             </h1>
 
             <p class="mt-2 mb-1 md:leading-relaxed leading-normal tracking-tight text-white text-base lg:leading-10 lg:text-xl">
-                {lang?.langFile?.main?.notary?.text}
+                {@html lang?.langFile?.main?.notary?.text}
             </p>
         </div>
 
@@ -210,10 +210,14 @@
 </section>
 
 <div class="relative z-10">
-    <div class="absolute w-fit inset-x-0 top-1/2 transform -translate-y-1/2 lg:top-[60%] lg:transform lg:-translate-y-[-30%] lg:translate-x-12 flex justify-center items-center z-0 sm:block">
-        <img src="orzel.png" width="250px" alt="Polish Emblem" class="opacity-25"/>
+    <div class="absolute w-fit ml-10 inset-x-0 top-1/2 transform -translate-y-1/2 lg:top-[60%] lg:transform lg:-translate-y-[-30%] lg:translate-x-12 sm:translate-x-4 sm:top-1/3 flex justify-center items-center z-0 sm:block">
+        <img src="/orzel.png" 
+             width="250px" 
+             alt="Polish Emblem" 
+             class="opacity-25 sm:w-64 sm:right-4 sm:relative sm:top-4" />
     </div>
 </div>
+
 
 <section
         class="text-gray-600 body-font flex bg-gray-900 relative md:text-base p-4 sm:h-auto sm:p-6 sm:bg-gray-900 bg-gradient-to-r from-cyan-900 from-10% to-teal-700 to-90% w-[90%] rounded-md mx-auto sm:w-[90%] md:w-[100%] lg:my-0 my-5 shadow-2xl shadow-teal-900 lg:shadow-none overflow-hidden">
@@ -255,6 +259,8 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
+
+
 
 <Footer lang={lang}/>
 <ScrollToTop/>

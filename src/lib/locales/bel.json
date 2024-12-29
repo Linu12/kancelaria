@@ -1,43 +1,43 @@
 {
     "header": {
-        "home": "Strona główna",
-        "info": "Co warto wiedzieć",
-        "contact": "Kontakt"
+        "home": "Галоўная старонка",
+        "info": "Што трэба ведаць",
+        "contact": "Кантакт"
     },
     "main": {
         "info": {
-            "notary_office": "Kancelaria notarialna",
+            "notary_office": "Натарыяльная кантора",
             "buttons": {
-                "contact_with_us": "Skontaktuj się z nami",
-                "how_to_get_there": "Jak dojechać?",
-                "set_route": "Wyznacz trasę"
+                "contact_with_us": "Звяжыцеся з намі",
+                "how_to_get_there": "Як дабрацца?",
+                "set_route": "Пабудаваць маршрут"
             }
         },
         "notary": {
-            "title": "Notariusz - Łódź",
-            "text": "Klientów z terenu miasta Łódź i okolicy poszukujących profesjonalnej obsługi notarialnej zachęcamy do skorzystania z pomocy naszej Kancelarii. Notariusz Joanna Czernikiewicz wraz z Zespołem pozostaje do Państwa dyspozycji, zapewniając najwyższą jakość usług, w tym fachowe doradztwo w kwestiach cywilno-prawnych i gospodarczych będących w kompetencji urzędu notarialnego. Wszystkich zainteresowanych zapraszamy do bliższego zapoznania się ze świadczonymi przez Kancelarię czynnościami notarialnymi. W razie pytań lub wątpliwości dotyczących zakresu kompetencji notariusza zachęcamy do kontaktu. Nasz Zespół odpowie na wszystkie pytania i umówi wizytę w Kancelarii w dogodnym dla Państwa terminie."
+            "title": "Натарыус - Лодзь",
+            "text": " Дакументы, неабходныя для замежнікаў пры наведванні натарыусаКалі замежнік наведвае натарыуса, важна падрыхтаваць неабходныя дакументы, якія могуць спатрэбіцца ў залежнасці ад характару натарыяльнага дзеяння. <br>Ніжэй прыведзены спіс асноўных дакументаў, якія варта мець пры сабе.<br> 1. Дакумент, які пацвярджае асобу - Паспорт або іншы прызнаны дакумент, які пацвярджае асобу і прымаецца ў Польшчы. <br> 2. Нумар PESEL - Патрабуецца нумар PESEL, і калі ў асобы яго няма, трэба прадаставіць сертыфікат аб яго адсутнасці. <br> 3. Дакументы, звязаныя з канкрэтным натарыяльным дзеяннем - Гэта могуць быць праваўстаноўчыя дакументы, дагаворы, даверанасці, сертыфікаты або іншыя юрыдычныя дакументы, у залежнасці ад характару справы. <br> 4. Завераныя пераклады - Калі якія-небудзь дакументы складзены на мове, іншай за польскую, могуць спатрэбіцца завераныя пераклады на польскую мову. Рэкамендуецца загадзя звязацца з натарыяльнай канторай, каб пацвердзіць, якія дакументы канкрэтна спатрэбяцца для дадзенай сітуацыі, каб забяспечыць бесперашкоднае ажыццяўленне натарыяльных працэдур"
         },
         "experience": {
-            "title": "Doświadczenie",
-            "text": "Bogate doświadczenie pozwala na rzetelne przygotowywanie aktów notarialnych oraz fachowe doradztwo prawne, co przekłada się na wysoki poziom obsługi klienta. Kancelaria Notarialna Notariusza Joanny Czernikiewicz kieruje swoje usługi do osób fizycznych oraz przedsiębiorców. Nasi Klienci mogą liczyć na indywidualne podejście, zaangażowanie oraz działanie w ich najlepszym interesie. Dopełniając czynności dbamy o to, by były one zgodne z obowiązującym prawem, a Klienci byli świadomi wszystkich przysługujących im praw i obowiązków z nich wynikających."
+            "title": "Досвед",
+            "text": "Багаты досвед дазваляе надзейна рыхтаваць натарыяльныя акты і аказваць прафесійныя юрыдычныя кансультацыі, што забяспечвае высокі ўзровень абслугоўвання кліентаў. Натарыяльная кантора Натарыуса Яанны Чэрнікіевіч прапануе паслугі для фізічных асоб і прадпрымальнікаў. Нашы кліенты могуць разлічваць на індывідуальны падыход, адданасць і дзеянні ў іх інтарэсах. Пры выкананні сваіх абавязкаў мы клапоцімся аб адпаведнасці іх дзеючаму заканадаўству, а таксама пра тое, каб кліенты разумелі ўсе свае правы і абавязкі, якія вынікаюць з іх."
         },
         "contact_form": {
-            "title": "Napisz do nas",
+            "title": "Напішыце нам",
             "inputs": {
-                "fullname": "Imię i Nazwisko",
-                "message": "Wiadomość"
+                "fullname": "Імя і Прозвішча",
+                "message": "Паведамленне"
             },
-            "send_message_btn": "Wyślij wiadomość"
+            "send_message_btn": "Адправіць паведамленне"
         }
     },
     "footer": {
-        "contact": "Kontakt",
+        "contact": "Кантакт",
         "hours": {
-            "title": "Godziny pracy",
-            "monday_wednesday_friday": "Poniedziałek, środa, piątek",
-            "tuesday_thursday": "Wtorek, czwartek",
-            "saturday": "Sobota"
+            "title": "Гадзіны працы",
+            "monday_wednesday_friday": "Панядзелак, серада, пятніца",
+            "tuesday_thursday": "Аўторак, чацвер",
+            "saturday": "Субота"
         },
-        "notary": "Notariusz"
+        "notary": "Натарыус"
     }
 }

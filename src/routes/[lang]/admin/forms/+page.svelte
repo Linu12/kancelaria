@@ -5,8 +5,6 @@
 
     export let data;
 
-    console.log(data)
-
     let forms = data.forms.forms ? data.forms.forms : [];
 
     const delForm = async (id) => {

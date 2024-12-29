@@ -1,43 +1,43 @@
 {
     "header": {
         "home": "Home",
-        "info": "Information",
+        "info": "What to Know",
         "contact": "Contact"
     },
     "main": {
         "info": {
-            "notary_office": "Kancelaria notarialna",
+            "notary_office": "Notary Office",
             "buttons": {
-                "contact_with_us": "Skontaktuj się z nami",
-                "how_to_get_there": "Jak dojechać?",
-                "set_route": "Wyznacz trasę"
+                "contact_with_us": "Contact Us",
+                "how_to_get_there": "How to Get There?",
+                "set_route": "Set Route"
             }
         },
         "notary": {
-            "title": "Notary - Lodz",
-            "text": "Klientów z terenu miasta Łódź i okolicy poszukujących profesjonalnej obsługi notarialnej zachęcamy do skorzystania z pomocy naszej Kancelarii. Notariusz Joanna Czernikiewicz wraz z Zespołem pozostaje do Państwa dyspozycji, zapewniając najwyższą jakość usług, w tym fachowe doradztwo w kwestiach cywilno-prawnych i gospodarczych będących w kompetencji urzędu notarialnego. Wszystkich zainteresowanych zapraszamy do bliższego zapoznania się ze świadczonymi przez Kancelarię czynnościami notarialnymi. W razie pytań lub wątpliwości dotyczących zakresu kompetencji notariusza zachęcamy do kontaktu. Nasz Zespół odpowie na wszystkie pytania i umówi wizytę w Kancelarii w dogodnym dla Państwa terminie."
+            "title": "Notary - Łódź",
+            "text": "Documents Required for Foreigners Visiting a Notary When a foreigner visits a notary, it is important to prepare the necessary documents that may be required depending on the nature of the notarial act. <br>Below is a list of key documents that should be brought along: <br> 1. Identity Document - A passport or another recognized document that confirms identity, accepted in Poland. 2. PESEL Number - A PESEL number is required, and if the person does not have a PESEL number, a certificate of its absence must be provided.<br> 3. Documents Related to the Specific Notarial Act - These may include property deeds, contracts, powers of attorney, certificates, or other legal documents, depending on the nature of the matter.<br> 4. Certified Translations - If any documents are written in a language other than Polish, certified translations into Polish may be required. It is advisable to contact the notary's office in advance to confirm which specific documents will be needed for the particular situation, ensuring a smooth execution of notarial "
         },
         "experience": {
-            "title": "Doświadczenie",
-            "text": "Bogate doświadczenie pozwala na rzetelne przygotowywanie aktów notarialnych oraz fachowe doradztwo prawne, co przekłada się na wysoki poziom obsługi klienta. Kancelaria Notarialna Notariusza Joanny Czernikiewicz kieruje swoje usługi do osób fizycznych oraz przedsiębiorców. Nasi Klienci mogą liczyć na indywidualne podejście, zaangażowanie oraz działanie w ich najlepszym interesie. Dopełniając czynności dbamy o to, by były one zgodne z obowiązującym prawem, a Klienci byli świadomi wszystkich przysługujących im praw i obowiązków z nich wynikających."
+            "title": "Experience",
+            "text": "Extensive experience enables the reliable preparation of notarial deeds and expert legal advice, which translates into a high level of customer service. The Notary Office of Joanna Czernikiewicz provides services to individuals and business entities. Our Clients can count on a personalized approach, dedication, and actions in their best interest. In performing our duties, we ensure they comply with applicable law and that Clients are aware of all their rights and obligations resulting from them."
         },
         "contact_form": {
-            "title": "Contact with us",
+            "title": "Write to Us",
             "inputs": {
-                "fullname": "Imię i Nazwisko",
-                "message": "Wiadomość"
+                "fullname": "Full Name",
+                "message": "Message"
             },
-            "send_message_btn": "Wyślij wiadomość"
+            "send_message_btn": "Send Message"
         }
     },
     "footer": {
-        "contact": "Kontakt",
+        "contact": "Contact",
         "hours": {
-            "title": "Godziny pracy",
-            "monday_wednesday_friday": "Poniedziałek, środa, piątek",
-            "tuesday_thursday": "Wtorek, czwartek",
-            "saturday": "Sobota"
+            "title": "Working Hours",
+            "monday_wednesday_friday": "Monday, Wednesday, Friday",
+            "tuesday_thursday": "Tuesday, Thursday",
+            "saturday": "Saturday"
         },
-        "notary": "Notariusz"
+        "notary": "Notary"
     }
 }

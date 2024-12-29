@@ -7,8 +7,6 @@
     export let data;
 
     const lang = data.lang;
-
-    console.log(data)
 </script>
 
 <svelte:head>

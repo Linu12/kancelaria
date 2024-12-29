@@ -1,43 +1,43 @@
 {
     "header": {
-        "home": "Strona główna",
-        "info": "Co warto wiedzieć",
+        "home": "Startseite",
+        "info": "Wissenswertes",
         "contact": "Kontakt"
     },
     "main": {
         "info": {
-            "notary_office": "Kancelaria notarialna",
+            "notary_office": "Notarbüro",
             "buttons": {
-                "contact_with_us": "Skontaktuj się z nami",
-                "how_to_get_there": "Jak dojechać?",
-                "set_route": "Wyznacz trasę"
+                "contact_with_us": "Kontaktieren Sie uns",
+                "how_to_get_there": "Wie kommt man hin?",
+                "set_route": "Route festlegen"
             }
         },
         "notary": {
-            "title": "Notariusz - Łódź",
-            "text": "Klientów z terenu miasta Łódź i okolicy poszukujących profesjonalnej obsługi notarialnej zachęcamy do skorzystania z pomocy naszej Kancelarii. Notariusz Joanna Czernikiewicz wraz z Zespołem pozostaje do Państwa dyspozycji, zapewniając najwyższą jakość usług, w tym fachowe doradztwo w kwestiach cywilno-prawnych i gospodarczych będących w kompetencji urzędu notarialnego. Wszystkich zainteresowanych zapraszamy do bliższego zapoznania się ze świadczonymi przez Kancelarię czynnościami notarialnymi. W razie pytań lub wątpliwości dotyczących zakresu kompetencji notariusza zachęcamy do kontaktu. Nasz Zespół odpowie na wszystkie pytania i umówi wizytę w Kancelarii w dogodnym dla Państwa terminie."
+            "title": "Notar - Łódź",
+            "text": " Dokumente, die Ausländer bei einem Notarbesuch benötigen. Wenn ein Ausländer einen Notar aufsucht, ist es wichtig, die erforderlichen Dokumente vorzubereiten, die je nach Art der notariellen Handlung erforderlich sein können. <br>Im Folgenden finden Sie eine Liste der wichtigsten Dokumente, die mitgebracht werden sollten: <br>1. Identitätsdokument - Ein Reisepass oder ein anderes anerkanntes Dokument, das die Identität bestätigt und in Polen akzeptiert wird. <br>2. PESEL-Nummer - Eine PESEL-Nummer ist erforderlich. Wenn die Person keine PESEL-Nummer hat, muss eine Bescheinigung über deren Fehlen vorgelegt werden. <br>3. Dokumente im Zusammenhang mit der spezifischen notariellen Handlung - Dazu können Eigentumsurkunden, Verträge, Vollmachten, Bescheinigungen oder andere rechtliche Dokumente gehören, abhängig von der Art des Anliegens. <br>4. Beglaubigte Übersetzungen - Wenn Dokumente in einer anderen Sprache als Polnisch verfasst sind, können beglaubigte Übersetzungen ins Polnische erforderlich sein. Es wird empfohlen, sich im Voraus mit dem Notariat in Verbindung zu setzen, um zu bestätigen, welche spezifischen Dokumente für die jeweilige Situation benötigt werden, um einen reibungslosen Ablauf der notariellen Verfahren zu gewährleisten"
         },
         "experience": {
-            "title": "Doświadczenie",
-            "text": "Bogate doświadczenie pozwala na rzetelne przygotowywanie aktów notarialnych oraz fachowe doradztwo prawne, co przekłada się na wysoki poziom obsługi klienta. Kancelaria Notarialna Notariusza Joanny Czernikiewicz kieruje swoje usługi do osób fizycznych oraz przedsiębiorców. Nasi Klienci mogą liczyć na indywidualne podejście, zaangażowanie oraz działanie w ich najlepszym interesie. Dopełniając czynności dbamy o to, by były one zgodne z obowiązującym prawem, a Klienci byli świadomi wszystkich przysługujących im praw i obowiązków z nich wynikających."
+            "title": "Erfahrung",
+            "text": "Umfangreiche Erfahrung ermöglicht die zuverlässige Erstellung notarieller Urkunden und fachkundige Rechtsberatung, was zu einem hohen Kundenservice führt. Das Notarbüro von Notarin Joanna Czernikiewicz bietet Dienstleistungen für Privatpersonen und Unternehmer an. Unsere Kunden können sich auf eine individuelle Herangehensweise, Engagement und Handeln in ihrem besten Interesse verlassen. Bei der Durchführung unserer Tätigkeiten achten wir darauf, dass sie mit dem geltenden Recht übereinstimmen und dass die Kunden sich aller ihrer daraus resultierenden Rechte und Pflichten bewusst sind."
         },
         "contact_form": {
-            "title": "Napisz do nas",
+            "title": "Schreiben Sie uns",
             "inputs": {
-                "fullname": "Imię i Nazwisko",
-                "message": "Wiadomość"
+                "fullname": "Vor- und Nachname",
+                "message": "Nachricht"
             },
-            "send_message_btn": "Wyślij wiadomość"
+            "send_message_btn": "Nachricht senden"
         }
     },
     "footer": {
         "contact": "Kontakt",
         "hours": {
-            "title": "Godziny pracy",
-            "monday_wednesday_friday": "Poniedziałek, środa, piątek",
-            "tuesday_thursday": "Wtorek, czwartek",
-            "saturday": "Sobota"
+            "title": "Arbeitszeiten",
+            "monday_wednesday_friday": "Montag, Mittwoch, Freitag",
+            "tuesday_thursday": "Dienstag, Donnerstag",
+            "saturday": "Samstag"
         },
-        "notary": "Notariusz"
+        "notary": "Notar"
     }
 }

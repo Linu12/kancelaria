@@ -4,6 +4,5 @@ import {getArticle} from "$lib/js/articles.js";
 
 export async function load({params}) {
     const article = await getArticle(params.article);
-    console.log(article)
     return {article}
 }

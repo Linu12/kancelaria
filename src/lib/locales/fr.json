@@ -1,43 +1,43 @@
 {
     "header": {
-        "home": "Strona główna",
-        "info": "Co warto wiedzieć",
-        "contact": "Kontakt"
+        "home": "Accueil",
+        "info": "À savoir",
+        "contact": "Contact"
     },
     "main": {
         "info": {
-            "notary_office": "Kancelaria notarialna",
+            "notary_office": "Bureau notarial",
             "buttons": {
-                "contact_with_us": "Skontaktuj się z nami",
-                "how_to_get_there": "Jak dojechać?",
-                "set_route": "Wyznacz trasę"
+                "contact_with_us": "Contactez-nous",
+                "how_to_get_there": "Comment y arriver ?",
+                "set_route": "Itinéraire"
             }
         },
         "notary": {
-            "title": "Notariusz - Łódź",
-            "text": "Klientów z terenu miasta Łódź i okolicy poszukujących profesjonalnej obsługi notarialnej zachęcamy do skorzystania z pomocy naszej Kancelarii. Notariusz Joanna Czernikiewicz wraz z Zespołem pozostaje do Państwa dyspozycji, zapewniając najwyższą jakość usług, w tym fachowe doradztwo w kwestiach cywilno-prawnych i gospodarczych będących w kompetencji urzędu notarialnego. Wszystkich zainteresowanych zapraszamy do bliższego zapoznania się ze świadczonymi przez Kancelarię czynnościami notarialnymi. W razie pytań lub wątpliwości dotyczących zakresu kompetencji notariusza zachęcamy do kontaktu. Nasz Zespół odpowie na wszystkie pytania i umówi wizytę w Kancelarii w dogodnym dla Państwa terminie."
+            "title": "Notaire - Łódź",
+            "text": "Documents requis pour les étrangers lors d'une visite chez un notaire. Lorsque qu'un étranger se rend chez un notaire, il est important de préparer les documents nécessaires qui peuvent être requis en fonction de la nature de l'acte notarial. <br> Ci-dessous, une liste des principaux documents à apporter : <br>1. Document d'identité - Un passeport ou un autre document reconnu confirmant l'identité, accepté en Pologne.<br> 2. Numéro PESEL - Un numéro PESEL est requis, et si la personne n'en possède pas, un certificat de son absence doit être fourni.<br> 3. Documents liés à l'acte notarial spécifique - Cela peut inclure des actes de propriété, des contrats, des procurations, des certificats ou d'autres documents juridiques, selon la nature de la demande.<br> 4. Traductions certifiées - Si des documents sont rédigés dans une langue autre que le polonais, des traductions certifiées en polonais peuvent être nécessaires. Il est recommandé de contacter le bureau notarial à l'avance pour confirmer quels documents spécifiques seront nécessaires dans la situation particulière, afin d'assurer le bon déroulement des procédures "
         },
         "experience": {
-            "title": "Doświadczenie",
-            "text": "Bogate doświadczenie pozwala na rzetelne przygotowywanie aktów notarialnych oraz fachowe doradztwo prawne, co przekłada się na wysoki poziom obsługi klienta. Kancelaria Notarialna Notariusza Joanny Czernikiewicz kieruje swoje usługi do osób fizycznych oraz przedsiębiorców. Nasi Klienci mogą liczyć na indywidualne podejście, zaangażowanie oraz działanie w ich najlepszym interesie. Dopełniając czynności dbamy o to, by były one zgodne z obowiązującym prawem, a Klienci byli świadomi wszystkich przysługujących im praw i obowiązków z nich wynikających."
+            "title": "Expérience",
+            "text": "Une vaste expérience permet la préparation fiable d'actes notariés et des conseils juridiques experts, ce qui se traduit par un haut niveau de service client. Le Bureau Notarial de Joanna Czernikiewicz offre ses services aux particuliers et aux entreprises. Nos clients peuvent compter sur : Une approche personnalisée. Un engagement envers leurs besoins. Des actions dans leur meilleur intérêt. Lors de l'exécution de nos fonctions, nous veillons à ce qu'elles soient conformes à la législation en vigueur et que les clients soient conscients de tous leurs droits et obligations qui en découlent."
         },
         "contact_form": {
-            "title": "Napisz do nas",
+            "title": "Écrivez-nous",
             "inputs": {
-                "fullname": "Imię i Nazwisko",
-                "message": "Wiadomość"
+                "fullname": "Nom et Prénom",
+                "message": "Message"
             },
-            "send_message_btn": "Wyślij wiadomość"
+            "send_message_btn": "Envoyer le message"
         }
     },
     "footer": {
-        "contact": "Kontakt",
+        "contact": "Contact",
         "hours": {
-            "title": "Godziny pracy",
-            "monday_wednesday_friday": "Poniedziałek, środa, piątek",
-            "tuesday_thursday": "Wtorek, czwartek",
-            "saturday": "Sobota"
+            "title": "Horaires de travail",
+            "monday_wednesday_friday": "Lundi, mercredi, vendredi",
+            "tuesday_thursday": "Mardi, jeudi",
+            "saturday": "Samedi"
         },
-        "notary": "Notariusz"
+        "notary": "Notaire"
     }
 }

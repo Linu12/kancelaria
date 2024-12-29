@@ -119,47 +119,76 @@
         </div>
 
         {#if isMenuOpen}
-            <div class="sm:hidden" id="mobile-menu">
-                <div class="space-y-1 px-5 pt-2 pb-3 uppercase">
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                             class="h-4 w-4 text-cyan-800">
-                            <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z"/>
+        <div class="sm:hidden" id="mobile-menu">
+            <div class="space-y-1 px-5 pt-2 pb-3 uppercase">
+                <!-- Home Link -->
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                         class="h-4 w-4 text-cyan-800">
+                        <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z"/>
+                    </svg>
+                    <a href="/{lang.code}"
+                       class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
+                        {lang.langFile?.header?.home}
+                    </a>
+                </div>
+        
+                <!-- Info Link -->
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                         class="size-4 text-cyan-800">
+                        <path fill-rule="evenodd"
+                              d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z"
+                              clip-rule="evenodd"/>
+                    </svg>
+                    <a href="/{lang.code}/info"
+                       class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
+                        {lang.langFile?.header?.info}
+                    </a>
+                </div>
+        
+                <!-- Contact Link -->
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                         class="size-4 text-cyan-800">
+                        <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"/>
+                        <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"/>
+                    </svg>
+                    <a href="#contact"
+                       class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
+                        {lang.langFile?.header?.contact}
+                    </a>
+                </div>
+        
+                <!-- Language Selector -->
+                <div class="relative">
+                    <button class="flex justify-between items-center w-full px-3 py-2 rounded-md text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black"
+                            on:click={toggleDropdown}>
+                        <img src={lang.flag} alt="" class="w-6 h-6 mr-3"/>
+                        {lang.title}
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
-                        <a href="/{lang.code}"
-                           class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
-                            Strona główna
-                        </a>
-                    </div>
-
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                             class="size-4 text-cyan-800">
-                            <path fill-rule="evenodd"
-                                  d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z"
-                                  clip-rule="evenodd"/>
-                        </svg>
-
-                        <a href="/{lang.code}/info"
-                           class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
-                            Co warto wiedzieć
-                        </a>
-                    </div>
-
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                             class="size-4 text-cyan-800">
-                            <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"/>
-                            <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"/>
-                        </svg>
-
-                        <a href="#contact"
-                           class="block rounded-md px-3 py-2 text-xs font-medium text-black-300 hover:bg-indigo-100 hover:text-black">
-                            Kontakt
-                        </a>
-                    </div>
+                    </button>
+                    {#if isDropdownOpen}
+                        <div class="absolute top-full mt-2 bg-white ring-1 ring-black ring-opacity-5 shadow-lg z-50 w-full">
+                            <div class="py-1">
+                                {#each languagesList as item}
+                                    {#if item.code !== lang.code}
+                                        <button on:click={() => {changeLang($page, item.code)}}
+                                                class="flex items-center px-4 py-2 text-sm text-black hover:bg-gray-100">
+                                            <img src={item.flag} alt="" class="w-5 h-5 mr-2"/>
+                                            {item.title}
+                                        </button>
+                                    {/if}
+                                {/each}
+                            </div>
+                        </div>
+                    {/if}
                 </div>
             </div>
+        </div>
         {/if}
+        
     </div>
 </nav>

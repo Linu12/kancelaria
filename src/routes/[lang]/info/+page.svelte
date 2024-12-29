@@ -15,12 +15,6 @@
             await goto($page.url, {invalidateAll: true});
         }
     }
-
-    const stripTags = (html) => {
-        const tempDiv = document.createElement("div");
-        tempDiv.innerHTML = html;
-        return tempDiv.textContent || tempDiv.innerText || "";
-    }
 </script>
 
 <Navigation lang={lang}/>
@@ -33,7 +27,7 @@
                     <div class="p-6">
                         <h2 class="text-xl font-semibold text-white bg-gradient-to-r from-cyan-700 from-10% to-cyan-900 to-90%  p-4 rounded shadow-xl shadow-cyan-700 lg:shadow-sm">{article.title[lang.code]}</h2>
                         <!-- <p class="text-sm text-gray-500">{date}</p> -->
-                        <p class="mt-2 text-gray-700">{stripTags(article.content[lang.code].substring(0, 150))}...</p>
+                        <p class="mt-2 text-gray-700">{article.content[lang.code].substring(0, 150).replace(/<[^>]+>/g, '')}...</p>
                         <a href="/{lang.code}/info/articles/{article.url}"
                            class="text-cyan-700 hover:text-cyan-500 mt-4 inline-block text-base">Czytaj więcej</a>
                     </div>
@@ -43,7 +37,7 @@
 
         <div class="mt-5 flex gap-1">
             {#each Array($page.data.articlesResponse.page.total) as _, index (index)}
-                <button class="flex items-center justify-center size-10 {$page.data.articlesResponse.page.current === index + 1 ? 'bg-red-600' : 'bg-gray'}"
+                <button class="flex items-center justify-center size-10 {$page.data.articlesResponse.page.current === index + 1 ? 'bg-teal-600' : 'bg-gray'}"
                         on:click={() => changePage(index + 1)}
                         disabled={$page.data.articlesResponse.page.current === index + 1}>{index + 1}
                 </button>

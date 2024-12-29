@@ -7,7 +7,7 @@ export const handle = async ({event, resolve}) => {
 
     if (!langFromUrl || !languageCodes.includes(langFromUrl)) {
         const redirectLang = languageCodes.includes(userLanguage) ? userLanguage : languageCodes[0];
-        return Response.redirect(new URL(`/${redirectLang}${event.url.pathname}`, event.url.origin.replace("https", "http")), 302);
+        return Response.redirect(new URL(`/${redirectLang}${event.url.pathname}`, event.url.origin), 302);
     }
 
     event.locals.lang = getLang(langFromUrl)
